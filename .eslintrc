@@ -1,0 +1,12 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:@typescript-eslint/recommended", // if using TypeScript
+    "plugin:prettier/recommended", // Enables eslint-plugin-prettier and displays Prettier errors as ESLint errors
+  ],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": "error", // Shows Prettier issues as ESLint errors
+  },
+}
