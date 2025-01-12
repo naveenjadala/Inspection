@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "lint:fix": "eslint './**/*.{js,jsx,ts,tsx}' --fix",
     "format": "prettier --write .",
-    "prepare": "husky install"
+    "prepare": "husky || true"
   },
   "dependencies": {
     "pnpm": "^9.15.3",
