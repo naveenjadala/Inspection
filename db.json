@@ -1,0 +1,25 @@
+{
+  "fields": [
+    {
+      "id": "1",
+      "dataType": "Input",
+      "name": "Enter title",
+      "fieldValidationRules": "{\"inputType\": \"Single Line\", \"input_format\": \"Alphabetic\", \"character_limit\": \"30\"}",
+      "options": []
+    },
+    {
+      "id": "6935",
+      "name": "test",
+      "dataType": "Input",
+      "fieldValidationRules": "{\"inputType\":\"Multi Line\",\"inputFormat\":\"Alpha-Numeric\"}",
+      "options": []
+    },
+    {
+      "id": "d8f3",
+      "name": "First Name",
+      "dataType": "Input",
+      "fieldValidationRules": "{\"inputType\":\"Single Line\",\"inputFormat\":\"Alphabetic\"}",
+      "options": []
+    }
+  ]
+}
